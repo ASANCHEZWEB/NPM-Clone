@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+* {
+  margin: 0px;
+}
+
+.containerNav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 3.7px 15px 3.7px;
+  height: 17px;
+  font-family: Poppins;
+  font-size: 13.125px;
+  font-weight: 400;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+}
+
+.logo>img {
+  height: 12px;
+  width: 17px;
+}
+
+nav>ul {
+  display: flex;
+  width: 461px;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-right: 30px;
+}
+
+.logo>h1 {
+  font-size: 13.125px;
+}
+
+.containerNav>img {
+  width: 70px;
+  height: 22px;
+}
+
+.containerNav>form>input {
+
+  width: 1144px;
+  height: 38px;
+
+}
+
+.containerNav>form>button {
+
+  height: 38px;
+  background-color: rgb(251, 62, 68);
+}
+
+.containerNav>form>img {
+  width: 15px;
+  height: 15px;
+}
+
+.sectionOne {
+  height: 684px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(232, 217, 217, .3);
+
+}
+
+.sectionOne>div {
+  display: flex;
+  flex-direction: column;
+  width: 812px;
+}
+
+.sectionOne>div>h1 {
+  padding-top: 110px;
+  font-weight: 700px;
+  font-size: 75px;
+  line-height: 86px;
+  width: 812px;
+  text-align: center;
+}
+
+.sectionOne>div>p {
+  width: 510px;
+  text-align: center;
+  font-size: 18.75px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.sectionOneButtons {
+
+  padding: 60px 30px 0px 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 510px;
+  margin: 0 auto;
+  ;
+}
+
+.buttonOne {
+  padding: 20px;
+  font-size: 18.75px;
+  color: white;
+  background-color: rgb(218, 20, 35);
+  width: 250px;
+  height: 23px;
+  text-align: center;
+}
+
+.buttonOne>a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  width: 210px;
+  height: 21px;
+}
+
+.buttonTwo>a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid rgba(138, 138, 138, .06);
+}
+
+.buttonTwo {
+  padding: 20px;
+  font-size: 18.75px;
+  text-align: center;
+  background-color: white;
+  width: 250px;
+  height: 23px;
+}
+
+#sectionTwo {
+  height: 956px;
+}
+.firstBlockST > img {
+  width: 215px;
+  height: 240px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.firstBlockST > h1{
+  font-size: 34px;
+padding-bottom: 30px;
+}
+.firstBlockST > p{
+  width: 720px;
+  text-align: center;
+}
+.firstBlockST{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.secondBlockST{
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  width: 1399px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+ 
+}
+.secondBlockST >div> img{
+  width: 44px;
+  height: 36px;
+}
+.secondBlockST >div> h3{
+  color: rgb(237, 28, 36);
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+.secondBlockST >div> p{
+  width: 298px;
+}
+.finalButton{
+  padding: 20px;
+  width: 431px;
+  margin: 0 auto;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  box-shadow: rgba(128, 83, 35, 0.2) 8px 8px 0px 0px;
+}
+.finalButton >a{
+text-decoration: none;
+color: white;
+}
